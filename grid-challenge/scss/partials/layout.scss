@@ -1,0 +1,130 @@
+
+.container{
+    height: auto;
+    width: auto;
+    /* grid-gap: 20px;
+    grid-template-columns: repeat(5, 200px); */
+    background-color: black;
+    padding: 30px;
+}
+
+.gridnav{
+    display: grid;
+    height: 120px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(5, 240px);
+    column-gap: 20px;
+    border: solid 3px grey;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    div {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 25px;
+        margin-left: 100px;
+        border: solid 3px grey;
+    }
+}
+
+.personal{
+    display: grid;
+    height: 230px;
+    grid-gap: 20px;
+    grid-template-columns: repeat(2, 58% 25%);
+    column-gap: 170px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    div {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;
+        padding: 20px;
+        border: solid 3px grey;
+        color: blueviolet;
+    }
+}
+
+.classmates{
+    display: grid;
+    height: 300px;
+    grid-gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 60px;
+    margin-bottom: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+    div {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 40px;
+        background-color: rgb(255, 92, 51);
+        border: solid 3px grey;
+        
+    }
+}
+
+
+.facilitator{
+    display: grid;
+    height: 300px;
+    grid-template-columns: repeat(2, 30% 70%);
+    margin-bottom: 20px;
+    border: solid 3px grey;
+
+    div {
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        font-size: 30px;;
+        padding: 20px;
+        color: blueviolet;
+    }
+}
+
+.item6{
+    padding: 10px;
+    
+}
+
+.item7{
+    background-image: url(../images/taariq.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 80%;
+}
+
+.item8{
+    background-image: url(../images/natheer.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 40%;
+}
+
+.item9{
+    background-image: url(../images/josh.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 20%;
+}
+
+.item10{
+    background-image: url(../images/zainab.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 20%;
+}
+
+.item11{
+    background-image: url(../images/nate.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-y: 20%; 
+}
