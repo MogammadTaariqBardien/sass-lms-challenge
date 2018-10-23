@@ -1,0 +1,66 @@
+/* General setup */
+/* Remember to always comment*/
+body {
+  margin: 0 auto;
+  min-width: 1000px;
+  max-width: 1600px;
+  font-size: 14px;
+  line-height: 20px;
+  letter-spacing: 3px;
+  font-family: "Noto Serif JP";
+  /* header and footer */ }
+  body section {
+    float: left;
+    width: 50%;
+    letter-spacing: 2px;
+    word-spacing: 2px; }
+  body aside {
+    float: left;
+    width: 30%; }
+  body nav {
+    float: left;
+    width: 30%; }
+  body footer {
+    clear: both; }
+  body header, body section, body aside, body nav, body footer {
+    padding: 40px; }
+  body header, body footer {
+    border-top: 5px solid crimson;
+    border-bottom: 5px solid crimson; }
+  body h1 {
+    text-align: center;
+    font-size: 30px;
+    font-family: "Roboto Condensed"; }
+  body h2 {
+    font-size: 26px;
+    font-family: "Roboto Condensed"; }
+  body ul {
+    list-style-type: square; }
+  body li {
+    line-height: 30px;
+    letter-spacing: 3px; }
+  body a:hover {
+    color: blueviolet;
+    text-decoration: none; }
+  body a:visited {
+    color: blueviolet; }
+  body a:link {
+    color: blueviolet; }
+  body a:focus {
+    color: blueviolet;
+    text-decoration: none; }
+  body a:active {
+    font-size: 15px;
+    color: blue; }
+  body a {
+    outline: none; }
+
+#p1 {
+  text-indent: 50px;
+  text-align: justify; }
+
+/* Give the links external icons linked to them */
+a[href^="https://"]:after {
+  content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png); }
+
+/*# sourceMappingURL=styles.css.map */

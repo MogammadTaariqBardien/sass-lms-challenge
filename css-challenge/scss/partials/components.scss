@@ -1,0 +1,11 @@
+#p1
+{
+  text-indent: 50px;
+  text-align: justify;
+}
+
+  /* Give the links external icons linked to them */
+a[href^="https://"]:after 
+{
+  content: url(http://upload.wikimedia.org/wikipedia/commons/6/64/Icon_External_Link.png);
+}
